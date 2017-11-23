@@ -135,9 +135,9 @@ export default {
       score: 0
     },
     {
-      name: 'Whoopie',
-      url: 'http://localhost:4004',
-      color: '#FF2EFF',
+      name: 'Battlebot',
+      url: 'http://localhost:3000',
+      color: '#00FF00',
       status: PlayerStatus.inactive,
       position: { x: null, y: null, z: null },
       wins: 0,

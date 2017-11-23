@@ -32,7 +32,7 @@ const enhancedApp = syncActionsAndInjectEmitter(app, {
   syncedState: stateSyncedWithStorage,
   syncedActions: actionsSyncedWithStorage,
   stateValidator: isValidSetupAndPlayersState,
-  disablePersistence: false
+  disablePersistence: true
 });
 import marked from 'marked';
 
